@@ -6,6 +6,9 @@ __pycache__/
 # Encrypted files
 *.pye
 
+# Temporary output files
+*.bin
+
 # C extensions
 *.so
 
