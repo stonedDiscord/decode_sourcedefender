@@ -16,3 +16,6 @@ SOURCEDEFENDER itself seems to be built in Cython and is internally called pyx
 
 Most of the code interesting to decode packed projects seems to be in loader.cpython-310-x86_64-linux-gnu.so
 One of the largest functions in that file is __pyx_pw_6loader_8_loader__15load
+
+The function is too big for both Ghidra and IDA Pro to decompile or display.
+This might be an anti-reversing tactic or just spaghetti code.
