@@ -1,4 +1,11 @@
 # Decode SOURCEDEFENDER
+
+
+# THIS PROJECT IS DEAD
+
+## appearently it is easier to just read the source from the stack using x64dbg
+
+
 ## Intro
 SOURCEDEFENDER is a tool to obfuscate, limit and encrypt python code.
 
