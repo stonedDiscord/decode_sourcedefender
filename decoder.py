@@ -8,9 +8,9 @@ infile = sys.argv[1]
 f = open(infile, 'r', encoding='utf-8')
 encrypted = f.read()
 f.close()
-stripped = encrypted.replace("-----BEGIN SOURCEDEFENDER FILE-----","")
-stripped = stripped.replace("------END SOURCEDEFENDER FILE------","")
-stripped = stripped.replace(" ","")
+encrypted = encrypted.replace("-----BEGIN SOURCEDEFENDER FILE-----","")
+encrypted = encrypted.replace("------END SOURCEDEFENDER FILE------","")
+stripped = encrypted.replace(" ","")
 stripped = stripped.replace("\n","")
 stripped = stripped.replace("\n","")
 
